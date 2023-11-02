@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.common import NoSuchElementException
 import time
 link = "https://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
