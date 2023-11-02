@@ -3,7 +3,7 @@ import time
 link = "https://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
-def test_bucket(browser):
+def test_guest_should_see_button(browser):
     browser.get(link)
     time.sleep(2)
     try:
